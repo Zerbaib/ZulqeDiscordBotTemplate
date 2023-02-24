@@ -17,6 +17,7 @@ class help(commands.Cog):
         embed.add_field(name="pat", value="Pats a user", inline=False)
         embed.add_field(name="owoify", value="OwOifies a message", inline=False)
         embed.add_field(name="sysinfo", value="Returns system information", inline=False)
+        embed.add_field(name="purge", value="Deletes a specified amount of messages (**Needs manage messages perm**)", inline=False)
         await ctx.send(embed=embed)
 
 async def setup(bot):
